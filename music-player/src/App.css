@@ -1,0 +1,128 @@
+/* App container */
+:root{
+  background-color: #121212;
+}
+
+.appi{
+  background-color: #121212;
+}
+  
+  /* Album cover */
+  .album-cover {
+    position: relative;
+    margin: 0 auto 20px; /* Sets top and bottom margin to 0, and centers horizontally */
+    width: 550px;
+    height: 600px;
+   
+  }
+
+  .list{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto 20px;
+    color: white;
+  }
+
+
+ 
+  .album-cover img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  /* Song list */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li h3 {
+    margin: 0;
+  }
+  
+  li button {
+    padding: 12px 16px;
+    background-color: #1ED760;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 200px;
+  }
+  
+  li button:hover {
+    background-color: #555;
+  }
+  
+  /* Play/Pause button */
+  .play-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .play-button:hover {
+    background-color: #555;
+  }
+  
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .button-play {
+    padding: 12px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 2px solid #333333;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+  
+  .button-play:hover {
+    background-color: #333333;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  .button-play.playing {
+    background-color: #333333;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
