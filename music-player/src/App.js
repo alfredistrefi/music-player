@@ -18,8 +18,8 @@ function App() {
   // Function to fetch songs from Spotify API
   const fetchData = async () => {
     try {
-      const clientId = 'c881de79492a484d8de937779a7fe902';
-      const clientSecret = 'f213a92a254849f5a6572355b4bf43d0';
+      const clientId = 'c881de79492a4845d8de937779a7fe902';
+      const clientSecret = 'f213a92a254849f75a6572355b4bf43d0';
       const authEndpoint = 'https://accounts.spotify.com/api/token';
       const apiEndpoint = 'https://api.spotify.com/v1/playlists/1qFYv9j9Y9Iqeq6UJOtlti/tracks';
 
